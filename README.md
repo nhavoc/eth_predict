@@ -2,6 +2,8 @@
 
 Execute Train_eth for end of day closing price and execute Train_eth_more_days for the next n days. Here, n can be a user defined value, altough realistically speaking you would not want to exceed more than 3-4 days to keep the error to a minimum. 
 
+## Output
+The executed code will save files onto the output folder. If an output error shows up you might just need to relocate your output folder. 
 
 ## Problem Description
 
