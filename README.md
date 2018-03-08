@@ -27,14 +27,6 @@ LSTM params:
 - dropout=0.5
 - loss="mean_squared_error"
 - optimizer="adam"
-
-
-#### Blind Test:  
-Single day prediction from **2017-11-28** to **2017-12-05**:
-9669.40, 10035.91, 9830.83, 9993.55, 10367.92, 10770.16, 10858.19, 11521.98
-
-The truth from **2017-11-29** to **2017-12-06**:
-9888.61, 10233.60, 10975.60, 11074.60, 11323.20 , 11657.20, 11916.70, 14291.50
   
 **Pearson correlation** between single day prediction and the truth: 0.92
   
